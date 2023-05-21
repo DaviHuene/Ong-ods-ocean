@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <a href="https://www.flaticon.com/br/icones-gratis/confiar-em" title="confiar em ícones"></a>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>ods14</title>
+</head>
+<body>
+    <!-- cor do fundo da navBar -->
+    <div class="navbar" style="z-index:100;"></div>
+    <!---header-->
+    <header style="background-image: url(apsimage/climate-change-concept-collage.jpg);">
+         <!--- container -->
+      <div class="container">
+        <header class="menu">
+        <nav>
+            
+            <br>
+            <ul class="ul" style="z-index:100;" >
+              <a href="index.html"><strong>Home</strong></a>
+              <a href="sobre.html"><strong>Sobre Nós</strong></a>
+              <a href="servicos.html"><strong>o que fazemos</strong></a>
+              <a href="blog.html"><strong>Dicas</strong></a>
+              <a  class="bt" href="contato.html"><strong>Contato</strong></a>
+              <div class="close-icon" onclick="closeMenu()">
+                  <i class="fa fa-times"></i>
+                </div>
+              </ul>
+              <div class="menu-icon" onclick="openMenu()">
+                  <i class="fa fa-bars"></i>
+          </div>
+       
+         </nav>
+        </header>
+        
+       
+         <section class="banner">
+           <div class="banner-text">
+                <h1 class="" >SOBRE NÓS</h1><BR><BR><BR>
+           </div>
+         </section>
+         <br> <br> <br> <br> 
+      </div>
+      
+       <!--- end container-->
+    </header> 
+    <section class="sobre" >
+      <!---  container-->
+     <div class="container"  style="background:  #dccbb5;">
+      <div class="sobre-text">
+        
+          <h3 class="gradient-text">Quem Somos</h3>
+          <p><strong> A ONG ods ocean nasceu do amor e respeito pelos oceanos, reconhecendo a importância vital desses ambientes para a saúde do planeta e para a sobrevivência de inúmeras espécies. Nossa missão é promover a conscientização, educar a sociedade e tomar medidas concretas para preservar os oceanos, buscando um equilíbrio entre o uso sustentável de seus recursos e a conservação dos ecossistemas marinhos. Nossos valores incluem colaboração, 
+            integridade, sustentabilidade e respeito à biodiversidade.</strong></p>
+    
+      </div>
+      <div class="sobre-img">
+          <img src="apsimage/woman-collecting-plastic-bottle-bag.jpg" alt="" style="border-radius: 40px 20px;">
+      </div>
+  </div>
+</section>
+<section class="ceo">
+  <div class="cont">
+    <!--card 1-->
+    <div class="cardc" id="c1">
+      
+      <div class="content">
+      <h2></h2>
+      <h3>Vida Aquática</h3><hr> <br> <br>
+      <p ><strong>Protegendo  espécies ameaçadas. Através de programas de monitoramento e pesquisa, a organização identifica e acompanhando as populações de animais aquáticos em risco, trabalhando em estreita colaboração com especialistas e 
+        autoridades para implementar estratégias de conservação.</strong>
+      </p>
+      </div>
+    </div>
+     <!--end card 1-->
+      <!--card 2-->
+    <div class="cardc" id="c2">
+      
+      <div class="content" >
+      <h2></h2>
+      <h3 >Oceano</h3><hr> <br> <br>
+      <p><strong>É um componente fundamental do nosso planeta Terra. Cobrindo cerca de 70% da superfície do globo, os oceanos desempenham um papel vital na regulação do clima, na produção de alimentos, na absorção de dióxido de carbono e na sustentação da vida em geral.</strong>
+      </p>
+      </div>
+    </div>
+     <!--end card 2-->
+      <!--card 3-->
+    <div class="cardc" id="c3">
+      <div class="content">
+      <h2></h2>
+      <h3>Conservação do Mar</h3><hr><br><br>
+      <p><strong>
+        Cerca de 80% do lixo despejado nas águas resulta de atividades realizadas em terra, vindo de indústrias ou da falta de saneamento básico, entre outros. O restante é proveniente da economia marítima, como a pesca e o transporte. 
+        Anualmente, cerca de 13 milhões de toneladas de lixo são despejadas no mar.
+      </strong>
+      </p>
+      </div>
+    </div>
+     <!--end card 3-->
+  </div>
+ </section>
+ 
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="container">
+          <div class="links">
+            <a href="https://www.facebook.com/ProjetoOceanoVivo/?locale=pt_BR"><i class="fa fa-facebook"></i></a>
+             <a href="https://www.instagram.com/explore/tags/ongoceanovivo/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </div>
+          <p>| Ods Ocean © 2023 – Todos os direitos reservados</p>
+          <p>com carinho Davi e amigos</p>
+      </div>
+  </footer>
+    <!--END FOOTER-->
+    <script type="text/javascript" src="java/main.js"></script>
+    <script type="text/javascript">
+     
+     VanillaTilt.init(document.querySelectorAll(".cardc"),{
+      max:25,
+      speed:400,
+      glare:false,
+      "max-glare": 1, 
+     });
+   </script>
+   
+</body>
+</html>
